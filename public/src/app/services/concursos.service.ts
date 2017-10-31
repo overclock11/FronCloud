@@ -5,7 +5,7 @@ import configuracion from '../app.config';
 
 @Injectable()
 export class ConcursosService {
-  public base:string = "https://"+configuracion.endpoint+"/api/competition/";
+  public base:string = "http://"+configuracion.endpoint+"/api/competition/";
   constructor(private http:Http) { }
 
   getAllCompetitionsAdmin(id): Observable<Response>{
@@ -30,10 +30,10 @@ export class ConcursosService {
     return this.http.post(this.base+"mcrear",concurso).catch((err)=>Observable.throw("Algo salio mal",err));
   }
   getVideosByCompetitionID(id:number):Observable<Response>{
-    return this.http.get("https://"+configuracion.endpoint+"/api/videos/mcompetition/"+id).catch((err)=>Observable.throw("Algo salio mal",err));
+    return this.http.get("http://"+configuracion.endpoint+"/api/videos/mcompetition/"+id).catch((err)=>Observable.throw("Algo salio mal",err));
   }
   getVideosByCompetitionIDAdmin(id:number):Observable<Response>{
-    return this.http.get("https://"+configuracion.endpoint+"/api/videos/competition/madmin/"+id).catch((err)=>Observable.throw("Algo salio mal",err));
+    return this.http.get("http://"+configuracion.endpoint+"/api/videos/competition/madmin/"+id).catch((err)=>Observable.throw("Algo salio mal",err));
   }
 
   deleteCompetition(id:number):Observable<Response>{

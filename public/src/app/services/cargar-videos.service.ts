@@ -5,13 +5,13 @@ import configuracion from '../app.config';
 
 @Injectable()
 export class CargarVideosService {
-  public base:string = "https://"+configuracion.endpointWorker+"/api/mvideos/";
+  public base:string = "http://"+configuracion.endpointWorker+"/api/mvideos/";
   constructor(private http:Http) { }
 
 
   uploadVideo(datos:FormData): Observable<Response>{
     let headers = {'Content-Type': 'multipart/form-data'};
-    return this.http.post("https://"+configuracion.endpointWorker+"/api/videos/upload",datos,headers)
+    return this.http.post("http://"+configuracion.endpointWorker+"/api/videos/upload",datos,headers)
     .catch((err)=>Observable.throw("Algo salio mal",err));
   }
   registrarVideo(participante:any): Observable<Response>{
