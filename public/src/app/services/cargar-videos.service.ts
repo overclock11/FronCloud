@@ -6,6 +6,7 @@ import configuracion from '../app.config';
 @Injectable()
 export class CargarVideosService {
   public base:string = "http://"+configuracion.endpointWorker+"/api/mvideos/";
+  public baseAPI:string = "http://"+configuracion.endpoint+"/api/mvideos/";
   constructor(private http:Http) { }
 
 
@@ -15,7 +16,7 @@ export class CargarVideosService {
     .catch((err)=>Observable.throw("Algo salio mal",err));
   }
   registrarVideo(participante:any): Observable<Response>{
-    return this.http.post(this.base+"crear",participante).catch((err)=>Observable.throw("Algo salio mal",err));
+    return this.http.post(this.baseAPI+"crear",participante).catch((err)=>Observable.throw("Algo salio mal",err));
   }
 
   getVideoById(id:number): Observable<Response>{
