@@ -1,0 +1,3 @@
+ng build --prod --base-href /beite/
+ng build --prod
+ng build --prod --base-href /dist/

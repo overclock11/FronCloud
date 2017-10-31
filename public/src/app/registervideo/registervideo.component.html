@@ -1,0 +1,53 @@
+<mat-progress-bar mode="indeterminate" *ngIf="creacion"></mat-progress-bar>
+<mat-card class="card-background-color animated rubberBand">
+  <form (ngSubmit)="registrarVideo()" >
+    <mat-card-title>
+      Cargar un video
+    </mat-card-title>
+    <mat-card-content>
+      <div class="col-md-4">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Nombre de usuario" required  name="username" type="text" [(ngModel)]="registroVideo.username">
+          <mat-icon matSuffix><i class="fa fa-address-book" aria-hidden="true"></i></mat-icon>
+        </mat-form-field>
+      </div>
+      <div class="col-md-4">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Apellido" name="surname" required  type="text" [(ngModel)]="registroVideo.surname">
+          <mat-icon matSuffix ><i class="fa fa-user" aria-hidden="true"></i></mat-icon>
+        </mat-form-field>
+      </div>
+      <div class="col-md-4">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Email" name="email" type="email"  required [(ngModel)]="registroVideo.email">
+          <mat-icon matSuffix ><i class="fa fa-envelope-o" aria-hidden="true"></i></mat-icon>
+        </mat-form-field>
+      </div>
+      <div class="col-md-4">
+        <mat-form-field class="example-full-width">
+          <input matInput placeholder="Titulo del video" name="name" type="text"  required [(ngModel)]="registroVideo.name">
+          <mat-icon matSuffix ><i class="fa fa-envelope-o" aria-hidden="true"></i></mat-icon>
+        </mat-form-field>
+      </div>
+      <div class="col-md-12">
+        <label>Mensaje</label>
+        <br>
+        <textarea name="name" style="width:100%;" name="mensaje" [(ngModel)]="registroVideo.description"></textarea>
+        <br>
+      </div>
+
+      <div class="col-md-6">
+        <input type="file" name="video" value="video" style="display:none;" #cargarVideov>
+        <button  class="btn-block" mat-raised-button color="accent" (click)="cargarVideov.click();false">
+          <i class="fa fa-film" aria-hidden="true"></i>
+          Elegir video
+        </button>
+        <br>
+      </div>
+      <div class="col-md-6">
+        <button mat-raised-button color="primary" class="btn-block">Enviar</button>
+      </div>
+      <button mat-raised-button color="primary" class="btn-block" disabled style="visibility: hidden;">Enviar</button>
+    </mat-card-content>
+  </form>
+</mat-card>
