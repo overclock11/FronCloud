@@ -2,11 +2,270 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca52ff7c-1a94-4459-b8f7-890d36b6d8b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/app/app.config.ts" afterPath="$PROJECT_DIR$/public/src/app/app.config.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/app/login.service.ts" afterPath="$PROJECT_DIR$/public/src/app/login.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/app/services/cargar-videos.service.ts" afterPath="$PROJECT_DIR$/public/src/app/services/cargar-videos.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/src/app/services/concursos.service.ts" afterPath="$PROJECT_DIR$/public/src/app/services/concursos.service.ts" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/public/.angular-cli.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/.editorconfig" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/.htaccess" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/3rdpartylicenses.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/estilos/preset1.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/estilos/preset2.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/estilos/prettyPhoto.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/estilos/responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/estilos/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/descarga.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/header-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/login.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/logo-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/logo1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/nosotrosGif.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/large/9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/portfolio/small/9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/team/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/team/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/team/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/images/team/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/assets/output.ogg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/header-bg.d215413b5b2d54631449.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/inline.76bce1ee898af01b48c8.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/main.b1247b7a89609fc4d430.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/polyfills.35726d60cdf25fecc5f1.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/styles.6f50beeefb85f6bbcf91.bundle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/beite/vendor.31f9a82ea9a4543327f9.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/compilarApache.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/3rdpartylicenses.txt" afterPath="$PROJECT_DIR$/public/dist/3rdpartylicenses.txt" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/estilos/preset1.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/estilos/preset2.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/estilos/prettyPhoto.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/estilos/responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/estilos/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/descarga.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/header-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/login.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/logo-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/logo1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/nosotrosGif.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/large/9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/portfolio/small/9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/team/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/team/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/team/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/images/team/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/assets/output.ogg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/glyphicons-halflings-regular.448c34a56d699c29117a.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/glyphicons-halflings-regular.89889688147bd7575d63.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/glyphicons-halflings-regular.e18bbf611f2a2e43afc0.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/glyphicons-halflings-regular.f4769f9bdb7466be6508.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/glyphicons-halflings-regular.fa2772327f55d8198301.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/header-bg.d215413b5b2d54631449.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/index.html" afterPath="$PROJECT_DIR$/public/dist/index.html" />
+      <change beforePath="$PROJECT_DIR$/public/dist/inline.b270dc7330c0292e4f9e.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/main.25803df30c52d7fcc266.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/polyfills.35726d60cdf25fecc5f1.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/styles.6f50beeefb85f6bbcf91.bundle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/dist/vendor.f9a0f6b779658d762d6c.bundle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/e2e/app.e2e-spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/e2e/app.po.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/e2e/tsconfig.e2e.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/karma.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/npm-debug.log.4095257229" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/package.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/protractor.conf.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/app.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/app.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/app.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/app.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/app.config.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/app.module.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/app.routes.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/competition/competition.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/competition/competition.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/competition/competition.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/competition/competition.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/concurso-gestion/concurso-gestion.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/concurso-gestion/concurso-gestion.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/concurso-gestion/concurso-gestion.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/concurso-gestion/concurso-gestion.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/create-competition/create-competition.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/create-competition/create-competition.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/create-competition/create-competition.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/create-competition/create-competition.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-competition/crud-competition.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-competition/crud-competition.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-competition/crud-competition.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-competition/crud-competition.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-detail-video/crud-detail-video.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-detail-video/crud-detail-video.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-detail-video/crud-detail-video.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-detail-video/crud-detail-video.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-video/crud-video.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-video/crud-video.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-video/crud-video.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/crud-video/crud-video.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/detailcompetition/detailcompetition.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/detailcompetition/detailcompetition.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/detailcompetition/detailcompetition.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/detailcompetition/detailcompetition.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/home-admin/home-admin.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/home-admin/home-admin.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/home-admin/home-admin.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/home-admin/home-admin.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/home/home.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/home/home.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/home/home.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/home/home.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/login.service.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/login.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/login/login.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/login/login.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/login/login.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/login/login.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/register-user/register-user.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/register-user/register-user.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/register-user/register-user.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/register-user/register-user.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/registervideo/registervideo.component.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/registervideo/registervideo.component.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/registervideo/registervideo.component.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/registervideo/registervideo.component.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/services/cargar-videos.service.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/services/cargar-videos.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/services/concursos.service.spec.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/app/services/concursos.service.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/.gitkeep" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/estilos/preset1.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/estilos/preset2.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/estilos/prettyPhoto.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/estilos/responsive.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/estilos/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/descarga.jpeg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/header-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/login.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/logo-white.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/logo1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/nosotrosGif.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/large/9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/10.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/11.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/12.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/13.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/15.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/16.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/portfolio/small/9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/team/1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/team/2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/team/3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/images/team/4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/assets/output.ogg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/environments/environment.prod.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/environments/environment.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/main.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/polyfills.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/test.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/tsconfig.app.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/tsconfig.spec.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/src/typings.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/tsconfig.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/tslint.json" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -21,58 +280,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="374">
+              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.config.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/src/app/app.config.ts">
+      <file leaf-file-name="www" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state relative-caret-position="-982">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/src/app/login.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cargar-videos.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/src/app/services/cargar-videos.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="concursos.service.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/src/app/services/concursos.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -104,11 +327,12 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/public/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="683" />
-    <option name="height" value="728" />
+    <option name="x" value="1358" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -119,56 +343,35 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="FronCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FronCloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="front" type="b2602c69:ProjectViewProjectNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="FronCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FronCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conectate-front" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -190,6 +393,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ca52ff7c-1a94-4459-b8f7-890d36b6d8b1" name="Default" comment="" />
@@ -199,26 +405,27 @@
       <updated>1509412900995</updated>
       <workItem from="1509412904384" duration="1215000" />
       <workItem from="1509414841128" duration="2833000" />
+      <workItem from="1522686681963" duration="1034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4048000" />
+    <option name="totallyTimeSpent" value="5082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17702845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3651316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24130435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -240,65 +447,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontServer/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontServer/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontServer/compilarApache.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontServer/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontServer/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontServer/compilarApache.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/compilarApache.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="476">
           <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding />
         </state>
@@ -314,31 +465,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/app/login.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="391">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/app/services/cargar-videos.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="323">
           <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/src/app/services/concursos.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="561">
           <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontServer/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/frontServer/app.js" />
+    <entry file="file://$PROJECT_DIR$/frontServer/compilarApache.txt" />
+    <entry file="file://$PROJECT_DIR$/frontServer/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/frontServer/app.js" />
+    <entry file="file://$PROJECT_DIR$/frontServer/compilarApache.txt" />
+    <entry file="file://$PROJECT_DIR$/public/src/app/login.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/app.config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/compilarApache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/services/concursos.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/src/app/services/cargar-videos.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-982">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
